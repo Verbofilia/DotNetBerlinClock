@@ -9,11 +9,7 @@ namespace BerlinClock
     [Binding]
     public class TheBerlinClockSteps
     {
-        private ITimeConverter berlinClock = new TimeConverter(
-            new TimeParserHHmmss(),
-            new SecondsConverter(),
-            new MinutesConverter(),
-            new HoursConverter());
+        private ITimeConverter berlinClock = new BerlinClockConverter();
         private String theTime;
 
         

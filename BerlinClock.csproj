@@ -50,6 +50,7 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="BDD\BerlinClockFeatureSteps.cs" />
+    <Compile Include="Classes\BerlinClockConverter.cs" />
     <Compile Include="Classes\DTO\ColorsConstants.cs" />
     <Compile Include="Classes\DTO\WideTime.cs" />
     <Compile Include="Classes\HoursConverter.cs" />

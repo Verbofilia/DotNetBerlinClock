@@ -17,9 +17,6 @@ namespace BerlinClock
         private readonly IPartialConverter _hoursConverter;
         private readonly IPartialConverter _minutesConverter;
 
-        public TimeConverter()
-        { }
-
         public TimeConverter(
             ITimeParser timeParser,
             IPartialConverter secondsConverter,
